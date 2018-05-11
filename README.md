@@ -11,9 +11,9 @@ Our choise is virtualenv as it is the recomended mechanism.
 The following instraction will cover Python 3.x only (if you are interested in having it with Python 2.7 then go here: https://www.tensorflow.org/install/install_linux
 
 1) Install pip and virtualenv by issuing the following command for python 3.x:
-
+<code>
 $ sudo apt-get install python3-pip python3-dev python-virtualenv
-
+</code>
 2) Create virtualenv environment by issuing the following command:
 
 $ virtualenv --system-site-packages -p python3 ~/tensorflow
