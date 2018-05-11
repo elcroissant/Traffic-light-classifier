@@ -28,7 +28,7 @@ $ source ~/tensorflow/bin/activate
 ```
 5) In order to install tensorflow with GPU support issue the following command:
 ```
-(tensorflow)$ pip3 install --upgrade tensorflow-gpu
+(tensorflow)$ pip3 install --upgrade tensorflow=1.3
 ```
 6) Verify if tensorflow installed correctly by issuing the following command:
 ```
