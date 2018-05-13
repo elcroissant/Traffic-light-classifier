@@ -73,3 +73,17 @@ From tensorflow/models/research/
 ```
 (tensorflow)$ python object_detection/builders/model_builder_test.py
 ```
+## 2. Setup AWS
+## 3. Setup Jupyter in AWS
+## 4. Train model
+## 5. Freeze model
+
+Note the frozen models are split because they were too big to push them on github with normal sizes:
+The following command was used to make them split:
+```
+split --bytes=40M model.pb model.pb_split
+```
+In order to put them together you can use cat:
+```
+cat model.pb_split* > model.pb
+```
