@@ -75,8 +75,17 @@ From tensorflow/models/research/
 ```
 ## 2. Setup AWS
 ## 3. Setup Jupyter in AWS
+https://medium.com/@alexjsanchez/python-3-notebooks-on-aws-ec2-in-15-mostly-easy-steps-2ec5e662c6c6
+
 ## 4. Train model
-## 5. Freeze model
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/configuring_jobs.md
+http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz
+http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_2018_01_28.tar.gz
+
+## 5. Evaluate model
+## 6. TensorBoard
+## 7. Freeze model
 
 Note the frozen models are split because they were too big to push them on github with normal sizes:
 The following command was used to make them split:
@@ -87,3 +96,4 @@ In order to put them together you can use cat:
 ```
 cat model.pb_split* > model.pb
 ```
+ 
